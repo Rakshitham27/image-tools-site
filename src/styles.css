@@ -1,0 +1,52 @@
+body {
+  background: #f6f7fb;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.upload-section input {
+  margin: 20px 0;
+}
+
+.controls {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+canvas {
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.download-btn {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background: #0056b3;
+}

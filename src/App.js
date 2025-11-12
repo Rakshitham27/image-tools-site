@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MainPage from "./components/MainPage";
+import BackgroundColorChanger from "./components/BackgroundColorChanger";
+import ResizeImage from "./components/ResizeImage";
+import ConvertToPDF from "./components/ConvertToPDF";
+import AddText from "./components/AddText";
+import CropImage from "./components/CropImage";
+import CompressImage from "./components/CompressImage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/background-color" element={<BackgroundColorChanger />} />
+        <Route path="/resize" element={<ResizeImage />} />
+        <Route path="/convert-pdf" element={<ConvertToPDF />} />
+        <Route path="/add-text" element={<AddText />} />
+        <Route path="/crop" element={<CropImage />} />
+        {/* <Route path="/compress" element={<CompressImage />} /> */}
+      </Routes>
+    </Router>
   );
 }
 
