@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/image-tools-site/static/css/main.1a929f8e.css",
+    "main.js": "/image-tools-site/static/js/main.8d2943b3.js",
+    "static/js/626.6726ffa4.chunk.js": "/image-tools-site/static/js/626.6726ffa4.chunk.js",
+    "static/js/284.1a90f584.chunk.js": "/image-tools-site/static/js/284.1a90f584.chunk.js",
+    "static/js/239.49ecee95.chunk.js": "/image-tools-site/static/js/239.49ecee95.chunk.js",
+    "static/js/977.920c8e4c.chunk.js": "/image-tools-site/static/js/977.920c8e4c.chunk.js",
+    "static/js/455.6b9ee067.chunk.js": "/image-tools-site/static/js/455.6b9ee067.chunk.js",
+    "static/js/453.ed65a7c1.chunk.js": "/image-tools-site/static/js/453.ed65a7c1.chunk.js",
+    "static/media/ort-wasm-simd-threaded.jsep.wasm": "/image-tools-site/static/media/ort-wasm-simd-threaded.jsep.ce14fe5a0a12cc7d4389.wasm",
+    "static/media/ort.webgpu.bundle.min.mjs": "/image-tools-site/static/media/ort.webgpu.bundle.min.814427649aa3b5bf01a1.mjs",
+    "static/media/ort.bundle.min.mjs": "/image-tools-site/static/media/ort.bundle.min.0be852687cbe677dde51.mjs",
+    "index.html": "/image-tools-site/index.html",
+    "main.1a929f8e.css.map": "/image-tools-site/static/css/main.1a929f8e.css.map",
+    "main.8d2943b3.js.map": "/image-tools-site/static/js/main.8d2943b3.js.map",
+    "626.6726ffa4.chunk.js.map": "/image-tools-site/static/js/626.6726ffa4.chunk.js.map",
+    "284.1a90f584.chunk.js.map": "/image-tools-site/static/js/284.1a90f584.chunk.js.map",
+    "239.49ecee95.chunk.js.map": "/image-tools-site/static/js/239.49ecee95.chunk.js.map",
+    "977.920c8e4c.chunk.js.map": "/image-tools-site/static/js/977.920c8e4c.chunk.js.map",
+    "455.6b9ee067.chunk.js.map": "/image-tools-site/static/js/455.6b9ee067.chunk.js.map",
+    "453.ed65a7c1.chunk.js.map": "/image-tools-site/static/js/453.ed65a7c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a929f8e.css",
+    "static/js/main.8d2943b3.js"
+  ]
+}
